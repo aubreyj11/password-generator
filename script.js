@@ -9,6 +9,7 @@ const specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")"];
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
+  
 
   if (password !== undefined) {
     passwordText.value = password;
